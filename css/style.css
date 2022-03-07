@@ -7,21 +7,11 @@ body{
 
   
 }
-.topNav{
+.jumbotron{
   /* Add a black background color to the top navigation */
-  display: flex;
-  position: sticky;
-  background-color: whitesmoke;
+  max-height:max-content;
  
-  flex-direction: row ;
-  align-items: baseline ;
-  padding: 7px 19px;
-  width: 550px;
-  height: 70px;
-  left: 70%;
-  right: 29%;
-  top: 23px;
-  border: 1px solid #e7e7e7;
+  
 
   
 }
@@ -48,24 +38,9 @@ body{
   background-color: #ddd;
   color: darkslategrey;
 }
-
-button {
+.GetAQuote{
   display: flex;
-  flex-direction: row;
-  text-align: center;
-  align-items:baseline;
-  padding: 8px 2px;
-  background-color: rgb(255, 238, 0) ;
-  border-style: double;
-  appearance: auto;
-  font-style: normal;
-  box-sizing: border-box;
-  height: 50px;
-  width: 80px;
-  margin-top: 0px;
-  font-size: 14px ;
-  
-
+  align-content: right;
 }
 
 .heroSpace{
@@ -116,7 +91,7 @@ padding-left: 15%;
 padding-top: 5%
 
 }
-/* why won't they space properly like in .gallery images?*/
+/* why won't they space properly like in .galleryImages?*/
 .quotes{
 display: flex;
 flex-direction: row;
