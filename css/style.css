@@ -124,7 +124,7 @@ padding-left: 15%;
 padding-right: 15%;
 padding-top: 5%;
 padding-bottom: 5%;
-justify-content:space-between space-around;
+justify-content: space-evenly space-around;
 
 background-color:#e9e9e9;
 border: ridge;
@@ -146,7 +146,7 @@ border: ridge;
 
 
 @media only screen and (max-width: 1000px) {
-  #topNav{
+  .topNav{
     display:none;
   }
 .video {
