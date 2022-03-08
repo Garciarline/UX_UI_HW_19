@@ -9,13 +9,24 @@ body{
 }
 .jumbotron{
   /* Add a black background color to the top navigation */
-  max-height:max-content;
  
   
 
   
 }
+.display-4{
+  display: flex;
+  margin-left: 50%;
 
+}
+.p-lead{
+  display: flex;
+  margin-left: 50%;
+}
+.button {
+  display: flex;
+  align-items: flex-end;
+}
 /* Style the links inside the navigation bar */
 .topNav a {
   float: right;
@@ -129,7 +140,7 @@ border: ridge;
 }
   }
   @media only screen and (max-width: 600px) {
-    #heroSpace{
+    #jumbotron{
       position:static;
       margin: 20px;
     }
